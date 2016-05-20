@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font: 12px/1.5 Tahoma,Helvetica,Arial,'宋体',sans-serif;
+}
+.section {
+  background: rgba(45,195,177,.8);
+}
+.section1 {
+  background: url(../images/section1.jpg) no-repeat center center;
+  background-size: 100%;
+}
+.section2 {
+  background: url(../images/458.jpg) no-repeat center center;
+  background-size: 100%;
+}
+.section h1 {
+  font-size: 40px;
+  color: rgba(0,0,0,.6);
+}
+.section p {
+  font-size: 20px;
+  color: rgba(0,0,0,.4);
+}
+.section1 h1 {
+  font-size: 40px;
+  color: #333;
+  text-align: center;
+  margin-top: 50px;
+}
+.section1 p {
+  font-size: 20px;
+  margin-top: 1200px;
+  color: #fff;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(0,0,0,.3);
+  box-shadow: 2px 2px 2px 0 rgba(255,252,255,.14);
+  padding: 40px;
+  border-radius: 20px;
+}
+.section2 h1 {
+  font-size: 40px;
+  color: #333;
+  margin-left: 2500px;
+  margin-top: 90px;
+  width: 300px;
+}
+.section2 p {
+  font-size: 20px;
+  margin-left: -2500px;
+  margin-top: 140px;
+  color: #fff;
+  width: 900px;
+  background: rgba(0,0,0,.3);
+  box-shadow: 2px 2px 2px 0 rgba(255,252,255,.14);
+  padding: 40px;
+  border-radius: 20px;
+}
+.menu {
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  background: rgba(45,195,177,.6);
+  height: 60px;
+  box-shadow: 0 0 2px 4px rgba(0,0,0,.2);
+}
+.menu-ul {
+  list-style-type: none;
+  margin: 0 auto;
+}
+@media screen and (min-width: 1080px)  {
+  .menu-ul {
+    width: 1020px;
+  }
+}
+@media screen and (min-width: 1280px)  {
+  .menu-ul {
+    width: 1200px;
+  }
+}
+@media screen and (min-width: 1680px)  {
+  .menu-ul {
+    width: 1600px;
+  }
+}
+@media screen and (min-width: 1980px)  {
+  .menu-ul {
+    width: 1900px;
+  }
+}
+.menu-ul li {
+  float: left;
+  width: 100px;
+  margin-right: 110px;
+}
+.menu-ul a {
+  color: #fff;
+  font-size: 14px;
+  height: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 20px;
+  text-align: center;
+  margin: 10px 0;
+}
+.menu-ul a.active-a {
+  background: rgba(255,255,255,.4);
+  box-shadow: 0 2px 1px 3px rgba(0,0,0,.4);
+  border-radius: 20px;
+  margin: 10px 0;
+  color: #333;
+}
+.menu-ul a:hover {
+
+  background: rgba(255,255,255,.5);
+  box-shadow: 0 2px 1px 3px rgba(0,0,0,.6);
+  border-radius: 20px;
+  color: #333;
+}
+.slide {
+
+}
+.slide1 {
+  background: url(../images/section3.jpg) no-repeat bottom center;
+  background-size: 100%;
+}
+.section4 {
+  background: url(../images/LaFerrari.jpg) no-repeat center center;
+  background-size: 100%;
+}
